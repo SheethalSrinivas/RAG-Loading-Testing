@@ -32,3 +32,6 @@ from langchain.vectorstores import Chroma                                       
 
 from datasets import Dataset                                                    # Used to structure the input (questions, answers, contexts etc.) in tabular format
 from langchain_openai import ChatOpenAI                                         # This is needed since LLM is used in metric computation
+
+from google.colab import drive
+drive.mount('/content/drive')
