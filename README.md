@@ -225,3 +225,4 @@ response_with_rag_2
 
 response_with_rag_3 = generate_rag_response("Can you explain specific examples from the article where apple's approach to leadership has led to successful innovations?") #Complete the code to pass the user input
 response_with_rag_3
+....
